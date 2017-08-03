@@ -1,0 +1,70 @@
+.sidebar {
+  width: 10em;
+  height: 100%;
+  background: rgba(248,248,248,1);
+  float:left;
+  position: fixed;
+
+}
+
+.breadcrumb {
+  float:right;
+  background-color:white;
+  list-style: none;
+}
+
+.breadcrumb > li + li:before {
+    content: "";
+}
+
+#welcome{
+  font-size:24px;
+  font-weight: bold;
+}
+
+.navbar{
+  position:fixed;
+  width: 50%;
+  margin-left: 5em;
+  float:left;
+}
+
+.navbar2{
+  position:fixed;
+  margin-left: 50%;
+  float:right;
+}
+
+.logintext{
+  font-size: 85%;
+  color: grey;
+}
+
+{
+  width: 100%;
+}
+
+.logo{
+  float: left;
+}
+
+.content{
+
+  margin-top: 60px;
+
+}
+
+.right{
+  float: right;
+  margin-top:-130px; /*text-align: right;*/
+  margin-left: 100px;
+}
+.r2{
+  float: right;
+  margin-top:-130px; /*text-align: right;*/
+  margin-right: 130px;
+}
+.left{
+  float: left;
+  text-align: center;
+}
